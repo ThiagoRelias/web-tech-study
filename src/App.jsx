@@ -1,9 +1,7 @@
-import Header from './Components/Header/index.jsx'
-import Card from './Components/card.jsx'
-import Banner from './Components/Banner/Banner.jsx'
-import Footer from './Components/footer.jsx'
-import ImgCard from './Components/ImgCard.jsx'
-import './Components/Img.css'
+import Banner from "./Components/Banner/Banner"
+import Header from "./Components/Header"
+import Footer from "./Components/Footer"
+import Card from "./Components/Card"
 
 
 
@@ -16,7 +14,7 @@ function App() {
 
       <Header title="Introdução ao React" />
 
-      <ImgCard caption="Lorem ipsum dolor sit amet," />
+      {/* <ImgCard caption="Lorem ipsum dolor sit amet," /> */}
 
 
 
@@ -24,7 +22,7 @@ function App() {
         <h1>Bem-Vindo ao meu site</h1>
         <p>Aqui você encontrará conteúdos sobre desenvolvimento web.</p>
       </Banner>
-      <Card />
+      {/* <Card /> */}
       <Footer title="new Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
 
     </>
