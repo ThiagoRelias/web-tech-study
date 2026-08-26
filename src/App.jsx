@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Banner from "./Components/Banner/Banner";
 import Count from "./Components/Count";
+import Box from "./Components/Box";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <Header title="Meu site" />
 
       <Count />
+
+      <Box />
+
       {/* <ImgCard caption="Lorem ipsum dolor sit amet," /> */}
 
       <Banner>

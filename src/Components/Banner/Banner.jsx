@@ -1,5 +1,4 @@
 const Banner = (props) => {
-    console.log(props.children)
 
     /*
      o children permite que você  passe e renderize
