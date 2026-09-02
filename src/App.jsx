@@ -5,7 +5,7 @@ import Count from "./Components/Count";
 import Box from "./Components/Box";
 import ImgCard from "./Components/ImgCard";
 import Card from "./Components/Card";
-
+import Carro from "./Components/Carro";
 
 function App() {
   return (
@@ -23,11 +23,13 @@ function App() {
         <p>Aqui você encontrará conteúdos sobre desenvolvimento web.</p>
       </Banner>
 
-      { <Card />}
+      <Card />
+
+      <Carro />
 
       <Footer title="new Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
