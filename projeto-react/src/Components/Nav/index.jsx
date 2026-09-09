@@ -12,6 +12,10 @@ export default function Nav() {
                 <li>
                     <Link to="/sobre">Sobre</Link>
                 </li>
+                {/* ADICIONE ESTA LINHA PARA O FAQ */}
+                <li>
+                    <Link to="/faq">FAQ</Link>
+                </li>
             </ul>
         </nav>
     );
